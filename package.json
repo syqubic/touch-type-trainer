@@ -1,0 +1,27 @@
+{
+	"name": "touch-type-trainer",
+	"version": "1.0.0",
+	"description": "WORK IN PROGRESS...",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "pingy dev",
+		"export": "pingy export"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/syqubic/touch-type-trainer.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/syqubic/touch-type-trainer/issues"
+	},
+	"homepage": "https://github.com/syqubic/touch-type-trainer#readme",
+	"devDependencies": {
+		"@pingy/cli": "^0.6.14",
+		"node-sass": "^4.5.3",
+		"typescript-compiler": "^1.4.1"
+	}
+}
