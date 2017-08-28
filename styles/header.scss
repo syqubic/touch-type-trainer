@@ -40,6 +40,7 @@
 
 .page-header__loader--indeterminate {
     animation: page-header-loader 1s linear infinite;
+    z-index: 21;
 }
 
 .page-header__loader--determinate {
