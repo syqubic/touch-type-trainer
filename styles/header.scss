@@ -54,13 +54,15 @@
     display: none;
     top: 0;
     left: 0;
-    &:hover .burger-rod:first-child {
-        width: 24px;
-        transform: rotate(30deg) translate(8px,2px);
-    }
-    &:hover .burger-rod:last-child {
-        width: 24px;
-        transform: rotate(-30deg) translate(8px,-2px);
+    &:hover {
+        .burger-rod:first-child {
+            width: 24px;
+            transform: rotate(30deg) translate(8px,2px);
+        }
+        .burger-rod:last-child {
+            width: 24px;
+            transform: rotate(-30deg) translate(8px,-2px);
+        }
     }
 }
 
