@@ -8,6 +8,44 @@
     }
 }
 
+@keyframes page-header-loader {
+    0% {
+        left: 0%;
+        width: 0%;
+    }
+
+    10% {
+        left: 0%;
+        width: 10%;
+    }
+
+    90% {
+        left: 90%;
+        width: 10%;
+    }
+
+    100% {
+        left: 100%;
+        width: 0%;
+    }
+}
+
+.page-header__loader {
+    display: block;
+    position: absolute;
+    background-color: red;
+    height: 2px;
+    bottom: -2px;
+}
+
+.page-header__loader--indeterminate {
+    animation: page-header-loader 1s linear infinite;
+}
+
+.page-header__loader--determinate {
+    left: 0%;
+}
+
 .page-header__burger {
     height: 60px;
     width: 70px;
