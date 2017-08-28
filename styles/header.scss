@@ -119,11 +119,6 @@
         background-color: #000000;
         transition: height 200ms ease-in-out;
     }
-    &.active {
-        &::after {
-            height: 2px;
-        }
-    }
     &:hover {
         &::after {
             height: calc(100% + 2px);
@@ -131,6 +126,12 @@
         & .page-nav__link {
             color: #ffffff;
         }
+    }
+}
+
+.page-nav__listitem--active {
+    &::after {
+        height: 2px;
     }
 }
 
